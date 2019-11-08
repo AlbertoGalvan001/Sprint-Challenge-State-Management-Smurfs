@@ -9,7 +9,9 @@ import logger from 'redux-logger';
 import "./index.css";
 import App from "./components/App";
 
+//import reducers
 
+///create const store
 
-
+///wrap provider around app
 ReactDOM.render(<App />, document.getElementById("root"));
