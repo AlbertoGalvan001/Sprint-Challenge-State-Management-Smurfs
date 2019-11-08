@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-//import form
-//import grid
+import Form from './Form';
+import Grid from './Grid';
 import "./App.css";
 
 
@@ -9,10 +9,10 @@ export default function App(props) {
     <div className='app'>
       <div className='left'>
         <h1>Smurfs Village</h1>
-      //add Form here
+        <Form />
       </div>
       <div className='right'>
-      //add grid here
+        <Grid />
       </div>
     </div>
   );
